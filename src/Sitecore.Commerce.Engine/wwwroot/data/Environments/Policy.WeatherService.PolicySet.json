@@ -1,0 +1,17 @@
+{
+  "$type": "Sitecore.Commerce.Core.PolicySet, Sitecore.Commerce.Core",
+  "Id": "Entity-PolicySet-WeatherServiceClientPolicy",
+  "Version": 1,
+  "IsPersisted": false,
+  "Name": "WeatherServiceClientPolicy",
+  "Policies": {
+    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Policy, Sitecore.Commerce.Core]], mscorlib",
+    "$values": [
+      {
+        "$type": "Plugin.Bootcamp.Exercises.Promotions.WeatherServiceClientPolicy, Plugin.Bootcamp.Exercises.Promotions",
+        "ApplicationId": "ddffeb1a99ac83136c8d4e042b8b811d"
+
+      }
+    ]
+  }
+}
