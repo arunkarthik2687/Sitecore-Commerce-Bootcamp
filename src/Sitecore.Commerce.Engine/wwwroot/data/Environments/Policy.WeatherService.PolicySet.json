@@ -1,9 +1,9 @@
 {
   "$type": "Sitecore.Commerce.Core.PolicySet, Sitecore.Commerce.Core",
-  "Id": "Entity-PolicySet-WeatherServiceClientPolicy",
+  "Id": "Entity-PolicySet-WeatherServiceClientPolicySet",
   "Version": 1,
   "IsPersisted": false,
-  "Name": "WeatherServiceClientPolicy",
+  "Name": "WeatherServiceClientPolicySet",
   "Policies": {
     "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Policy, Sitecore.Commerce.Core]], mscorlib",
     "$values": [

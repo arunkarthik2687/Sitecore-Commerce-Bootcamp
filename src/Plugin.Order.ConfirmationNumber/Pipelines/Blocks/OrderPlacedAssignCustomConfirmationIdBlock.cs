@@ -41,7 +41,7 @@ namespace Plugin.Bootcamp.Exercises.Order.ConfirmationNumber.Blocks
             var orderidPolicy = context.GetPolicy<OrderNumberPolicy>();
             if (orderidPolicy.IncludeDate == true)
             {
-                return $"{orderidPolicy.Prefix},{DateTime.Today.ToString("d", System.Globalization.CultureInfo.InvariantCulture)},{orderidPolicy.Suffix},{Guid.NewGuid().ToString()}";
+                return $"{orderidPolicy.Prefix},{DateTime.Today.ToString("dd-MM-yyyy", System.Globalization.CultureInfo.InvariantCulture)},{orderidPolicy.Suffix},{Guid.NewGuid().ToString()}";
             }
             else
             {

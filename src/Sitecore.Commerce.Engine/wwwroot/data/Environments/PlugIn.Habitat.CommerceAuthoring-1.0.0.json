@@ -173,7 +173,11 @@
       },
       {
         "$type": "Sitecore.Commerce.Core.PolicySetPolicy, Sitecore.Commerce.Core",
-        "PolicySetId": "Entity-PolicySet-WeatherServiceClientPolicy"
+        "PolicySetId": "Entity-PolicySet-WeatherServiceClientPolicySet"
+      },
+      {
+        "$type": "Sitecore.Commerce.Core.PolicySetPolicy, Sitecore.Commerce.Core",
+        "PolicySetId": "Entity-PolicySet-OrderExportPolicySet"
       },
       {
         "$type": "Sitecore.Commerce.Core.PolicySetPolicy, Sitecore.Commerce.Core",
